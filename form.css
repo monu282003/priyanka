@@ -1,0 +1,85 @@
+input[type=text]
+{
+    width: 50%;
+    border-width: 50%;
+    border: 70%;
+padding: 12px 20px;
+  margin: 8px 8px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-size: 100%;
+
+}
+input[type=text]: focus {
+   background-color:lightblue;
+    
+}
+
+textarea
+{ 
+    border-radius: 4px;
+    border-width: 100%;
+    border: 70%;
+    width: 100%;
+    height: 40%;
+    padding: 12px 20px;
+    margin: 8px 8px;
+    box-sizing: border-box;
+    resize: none;
+    font-size: 110%;
+}  
+
+ select {
+    width: 100%;
+  padding: 16px 20px;
+  border: 70%;
+  border-radius: 10px;
+  background-color: #dfdad4dd;
+  font-size: 100%;
+ }
+ input[type=submit]
+ {
+    width: 10%;
+    height: 60%;
+    border: 70%;
+
+    cursor:pointer;
+    background-color: floralwhite;
+ }
+ input[type=button]
+ {
+    width: 10%;
+    height: 60%;
+    border: 70%;
+    cursor: pointer;
+    background-color:floralwhite ;
+    
+ }
+ input[type=email]
+ {
+    font-size: 100%;
+    width: 30%;
+    height: 40%;
+    padding: 20px;
+
+ }
+ input[type=password]
+ {
+    font-size: 100%;
+    width: 30%;
+    height: 40%;
+    padding: 20px;
+ }
+ fieldset
+ {
+    width: 50%;
+    height: 60%;
+    border: 70%;
+    border-color: black;
+ }
+ input[type=radio]
+ {
+    font-size: 40px;
+
+
+ }

@@ -1,0 +1,85 @@
+.navbar{
+    padding-bottom: 0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 40px;
+}
+.nav-item{
+    font-weight: bold;
+padding:0% 5%;
+
+}
+.nav-link{
+    font-size: 1.2rem;
+}
+.container-fluid{
+    padding-right: 3%;
+    padding: 2%;
+
+}
+.container-fluid{
+    background-color: lightgreen;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+}
+.breadcrumb{
+    font-size: 1rem;
+    padding: 2%;
+    text-align: center;
+
+}
+.breadcrumb-item{
+    text-align: center;
+    
+
+}
+.bread{
+text-align: center;
+}
+.item{
+    color: black;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.col-sm-6{
+    padding: 2%;
+}
+.image2{
+    height: 17rem;
+    padding: 1.5%;
+}
+.card{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.card-title{
+    font-family: Montserrat, sans-serif;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+.card-text{
+    font-family: Montserrat, sans-serif;
+}
+#moisturizer{
+    margin-top: 3%;
+}
+#gel{
+    margin-top: 3%;
+}
+@media (max-width:990px)
+{
+.card{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.col-lg-4{
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+}
+#facewash{
+    padding-top: 5%;
+}

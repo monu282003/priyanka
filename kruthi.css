@@ -1,0 +1,55 @@
+.navbar{
+    color:white;
+}
+
+h4{
+    padding: 7% 10%;
+    text-align:center;
+    
+}
+
+.details{
+    padding: 5% 10%;
+    text-align:cenetr;
+}
+.image{
+   
+    padding:7% 7%;
+    
+}
+
+img{
+     height:300px;
+    width:250px;
+    border-radius:50%;
+}
+
+.navbar-brand{
+    padding:3% 15%;
+}
+.nav-items{
+    padding: 3% 3%;
+}
+.navbar-nav{
+    padding: 3% 28%;
+}
+.carousel-item{
+    padding: 5% 15%;
+    color:white;
+    text-align:center;
+}
+
+h2{
+    padding: 4%;
+    text-align:center;
+}
+#quotes{
+    color:white;
+    text-align:center;
+    padding:5%;
+}
+#contact{
+    color:white;
+    text-align:center;
+    padding:5%;
+}

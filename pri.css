@@ -1,0 +1,152 @@
+p1{
+    font-family: Montserrat, sans-serif;
+font-size: 3.5rem;
+font-weight: bold;
+color: white;
+}
+.image1{
+    image-resolution: 50px;
+
+padding-right: 5%;
+padding-top: 5%;
+padding-bottom: 5%;
+    height: 34rem;
+    width: 24rem;
+    margin-bottom: 10%;
+    margin-left: 20%;
+    margin-right: 5%;
+
+
+
+
+}
+.container-fluid{
+    background-color: lightgreen;
+    padding: 3% 20%;
+
+
+}
+.navbar{
+    padding-bottom: 1.2rem;
+
+
+}
+.navbar-brand{
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 40px;
+    
+
+}
+.nav-item{
+    font-weight: 200;
+text-align: left;
+padding:0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+}
+.container-fluid{
+    padding-right: 3%;
+    padding: 2%;
+
+}
+#features{
+padding: 7% 15% 7%;
+background-color: white;
+
+
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+h2{ 
+    font-family: Montserrat, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+}
+p2{
+    color: grey;
+}
+.bx{
+    color: black;
+}
+#carousel {
+    background-color: lightgreen;
+}
+.facewash{
+width:40rem;
+height: 40rem;
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+h3{
+    text-align: center;
+    font-family:Montserrat, sans-serif; 
+    color: white;
+    font-size: 50;
+    font-weight: bold;
+}
+.carousel-item{
+    padding: 2%;
+}
+.price{
+    font-family: cursive;
+    font-weight: bold;
+    font-size: larger;
+}
+.card-price{
+    padding-top: 3%;
+}
+.product-image{
+    height: 17rem;
+    padding: 1.5%;
+    
+}
+p3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+p5{
+    text-decoration-line: line-through;
+}
+.card{
+    margin-left: 3%;
+    margin-top: 7%;
+}
+.collapse{
+    margin-left: 50%;
+    font-family: Montserrat, sans-serif;
+    font-weight: 100;
+}
+@media (max-width:675px)
+{
+    .image1{
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 20rem;
+        height: 30rem;
+    }
+    p1{
+        font-family: Montserrat, sans-serif;
+        font-size: 2.2rem;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+    .facewash{
+        width:20rem;
+height: 25rem;
+    }
+    .card{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+

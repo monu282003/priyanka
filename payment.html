@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Beauty Product Order</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="number"],
+        select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+        .password{
+            padding: 3%;
+        }
+        .date{
+            padding: 3%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Order Beauty Product</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address" required>
+            </div>
+            <div class="form-group">
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" required>
+            </div>
+            <div class="form-group">
+                <label for="payment">Payment Method:</label>
+                <select id="payment" name="payment" required>
+                    <option value="">Select</option>
+                    <option value="credit">Credit Card</option>
+                    <option value="debit">Debit Card</option>
+                    <option value="paypal">PayPal</option>
+
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="card-number"> card number</label>
+
+                <input type="number" class="number" id="card-number" required>
+            </div>
+            <div class="form-group">
+                <label for="validity"> validity</label>
+                <input type="date" class="date" id="validity-date" required>
+
+            </div>
+            <div class="form-group">
+                <label for="cvv"> cvv</label>
+                <input type="password" class="password" id="cvv" required>
+            </div>
+            
+
+            <button type="submit">Place Order</button>
+        </form>
+    </div>
+</body>
+
+</html>
